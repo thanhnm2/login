@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url('../image/ảnh\ đẹp\ desktop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form{
+    width: 500px;
+    background: rgba(0,0, 0,0.1);
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 30px;
+    color: #fff;
+    border: 1px solid #fff;
+
+
+}
+.form label{
+    display: block;
+    padding-bottom: 10px;
+}
+.form .form-control{
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 10px;
+    border: none;
+    /* background: rgba(0,0, 0,0.1); */
+    outline: none;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    background: bottom;
+}
+.btn{
+    text-align: center;
+}
+.form button{
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px;
+    
+}
+.btn :hover{
+    background: rgb(29, 233, 233);
+    color: #fff;
+}
